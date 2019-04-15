@@ -1,0 +1,15 @@
+.heading {
+  // from 4th col to 7th
+  // in second row
+  grid-column: 4/7;
+  grid-row: 2/3;
+
+  &-text {
+    font-family: 'Great Vibes', cursive;
+    // size is function we created. you can double its size...
+    font-size: size(xl) * 2;
+    font-weight: lighter;
+    letter-spacing: 0.5rem;
+  }
+
+}

@@ -1,0 +1,33 @@
+$colors: (
+  primary: #003450,
+  secondary: #ffe,
+  tertiary: #00504c,
+  compementary: #501c00
+ );
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+
+$font-sizes: (
+  xl: 3rem,
+  lg: 2.5rem,
+  md: 2rem,
+  sm: 1.8rem,
+  xs: 1.6rem
+);
+
+@function size($size) {
+  @return map-get($font-sizes, $size);
+}
+
+// #003450
+// #ffffff
+// #00507a
+// #006ba5
+// #0087cf
+// #00a2fa
+// #001825
+// #00504c
+// // compementary
+// #501c00

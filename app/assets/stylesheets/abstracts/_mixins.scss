@@ -1,0 +1,24 @@
+@mixin navigation {
+  &-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    // have to also assign height
+    height: 100%;
+  }
+
+  &-item {
+    list-style: none;
+  }
+
+  &-link {
+    color: color(primary);
+    text-decoration: none;
+    font-size:size(sm);
+    transition: all .3s;
+
+    &:hover {
+      color: lighten(color(primary), 40%);
+    }
+  }
+}

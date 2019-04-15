@@ -1,0 +1,17 @@
+// placed in top right corner, take up last 3 columns, occupy first row
+.first-nav {
+  grid-column: 7/10;
+  grid-row: 1/2;
+  @include navigation;
+}
+
+.second-nav {
+  grid-column: 3/8;
+  grid-row: 3/4;
+  @include navigation;
+}
+
+// // temporary
+// .dropdown {
+//   display: none;
+// }

@@ -14,6 +14,7 @@
   <body>
     <!-- whole site wrapped in -->
     <div class="container">
+      <!-- header -->
       <header class="header">
       <!-- Logo -->
         <div class="logo">
@@ -25,19 +26,17 @@
           <ul class="first-nav-list">
             <li class="first-nav-item">
               <a href="" class="first-nav-link">
-
-                Contact Us
-              </a>
-            </li>
-            <li class="first-nav-item">
-              <a href="" class="first-nav-link">
                 <i class="fas fa-search"></i>
                 Search
               </a>
             </li>
             <li class="first-nav-item">
               <a href="" class="first-nav-link">
-
+                Contact Us
+              </a>
+            </li>
+            <li class="first-nav-item">
+              <a href="" class="first-nav-link">
                 Sign In
               </a>
             </li>
@@ -61,8 +60,8 @@
                 Shop
               </a>
             </li>
-            <li class="second-nav-item">
-              <a href="#" class="second-nav-link dropdown-li">
+            <li class="second-nav-item dropdown-li">
+              <a href="#" class="second-nav-link">
                 Gift Ideas
               </a>
               <ul class="dropdown">
@@ -101,6 +100,46 @@
           </ul>
         </nav>
       </header>
+      <!-- End of header -->
+      <!-- sideshow -->
+      <section class="slideshow">
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quibusdam veritatis odio voluptatem impedit repellat, nemo cum.</p>
+          </div>
+          <img src="assets/tia.png" alt="">
+        </div>
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quibusdam veritatis odio voluptatem impedit repellat, nemo cum.</p>
+          </div>
+          <img src="assets/ship.jpg" alt="">
+        </div>
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 3</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quibusdam veritatis odio voluptatem impedit repellat, nemo cum.</p>
+          </div>
+          <img src="assets/tia.png" alt="">
+        </div>
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 4</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quibusdam veritatis odio voluptatem impedit repellat, nemo cum.</p>
+          </div>
+          <img src="assets/ship.jpg" alt="">
+        </div>
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 5</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi quibusdam veritatis odio voluptatem impedit repellat, nemo cum.</p>
+          </div>
+          <img src="assets/tia.png" alt="">
+        </div>
+      </section>
+      <!-- end of slideshow -->
     </div>
     <%= yield %>
   </body>
