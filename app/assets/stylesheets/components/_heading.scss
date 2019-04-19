@@ -10,6 +10,9 @@
     font-size: size(xl) * 2;
     font-weight: lighter;
     letter-spacing: 0.5rem;
+    // @include navigation;
+    text-decoration: none;
+    color: color(primary);
   }
 
 }

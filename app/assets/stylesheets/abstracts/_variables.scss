@@ -1,8 +1,8 @@
 $colors: (
-  primary: #003450,
+  primary: rgb(45, 29, 34),
   secondary: #ffe,
-  tertiary: #00504c,
-  compementary: #501c00
+  tertiary: rgb(202, 193, 175),
+  compementary: rgb(116, 90, 92)
  );
 
 @function color($color-name) {
