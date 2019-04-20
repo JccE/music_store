@@ -12,31 +12,8 @@
   </head>
 
   <body>
-    <!-- whole site wrapped in -->
-    <div class="container">
-      <%= yield %>
-
-      <!-- header -->
-      <header class="header">
-      <!-- Logo -->
-        <div class="logo">
-          <img src="assets/planet.png" alt="logo" class="logo-img">
-        </div>
-        <!-- nav -->
-        <%= render 'components/nav' %>
-        <!-- heading -->
-        <div class="heading">
-          <%= link_to "Music Store", root_path, class: "heading-text" %>
-          <!-- <h1 class="heading-text">Music Store</h1> -->
-        </div>
-        <!-- second nav -->
-        <%= render 'components/nav2' %>
-      </header>
-      <!-- End of header -->
-
-
-    </div>
-
+    <%#= render 'layouts/main' %>
+    <%= render 'layouts/dev' %>
   </body>
 </html>
 

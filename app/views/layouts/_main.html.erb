@@ -1,0 +1,17 @@
+<div class="container">
+  <header class="header">
+
+    <div class="logo">
+      <img src="assets/planet.png" alt="logo" class="logo-img">
+    </div>
+
+    <%= render 'components/nav' %>
+
+    <div class="heading">
+      <%= link_to "Music Store", root_path, class: "heading-text" %>
+    </div>
+
+    <%= render 'components/nav2' %>
+  </header>
+  <%= yield %>
+</div>
