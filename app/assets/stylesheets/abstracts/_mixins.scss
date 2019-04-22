@@ -57,7 +57,33 @@
 }
 
 
+// mixin for media queries
+@mixin response($breakpoint) {
+  @if($breakpoint == xl) {
+    @media(max-width: 1200px) {
+      // content allows us to give a block to this function
+      @content;
+    }
+  }
 
+  @if($breakpoint == lg) {
+    @media(max-width: 1000px) {
+      @content;
+    }
+  }
+
+  @if($breakpoint == md) {
+    @media(max-width: 760px) {
+      @content;
+    }
+  }
+
+  @if($breakpoint == sm) {
+    @media(max-width: 560px) {
+      @content;
+    }
+  }
+}
 
 
 

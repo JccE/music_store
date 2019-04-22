@@ -10,6 +10,17 @@ html {
   /// calculate via:
   // 10 / 16 = .625 * 100
   font-size: 62.5%;
+
+  // at 760px we need to add media query mixin
+  @include response(md) {
+// 9 / 16 is 56.25%
+    font-size:56.25%;
+  }
+
+  @include response(sm) {
+// 8 /16
+    font-size:50%;
+  }
 }
 
 .container {

@@ -1,7 +1,8 @@
 .heading {
-  // from 4th col to 7th
-  // in second row
-  grid-column: 4/7;
+  // // from 4th col to 7th
+  // // in second row
+  // grid-column: 4/7;
+  grid-column:1/-1;
   grid-row: 2/3;
   @include flexPosition;
 
