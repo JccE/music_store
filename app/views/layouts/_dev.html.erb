@@ -1,3 +1,48 @@
+<div class="container">
+  <nav class="navbar">
+    <div class="hamburger-menu">
+      <div class="line line-1"></div>
+      <div class="line line-2"></div>
+      <div class="line line-3"></div>
+    </div>
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">News</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">Events</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a href="" class="nav-link">Content</a>
+      </li>
+    </ul>
+  </nav>
+</div>
 
-  <%= yield %>
 
+<%#= yield %>
+
+<script>
+  // grab hamburger-menu
+  const menuIcon = document.querySelector('.hamburger-menu');
+  // grab navbar
+  const navbar = document.querySelector('.navbar');
+
+  // set event listener to toggle "change" on click
+  menuIcon.addEventListener('click', ()=> {
+    navbar.classList.toggle("change");
+  });
+
+</script>

@@ -3,6 +3,7 @@
   // in second row
   grid-column: 4/7;
   grid-row: 2/3;
+  @include flexPosition;
 
   &-text {
     font-family: 'Great Vibes', cursive;

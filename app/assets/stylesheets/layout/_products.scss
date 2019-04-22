@@ -76,9 +76,11 @@
       background-color: lighten(color(primary), 40%);
     }
   }
-
 }
 
+.products-btn {
+  @include flexPosition;
+}
 
 
 
